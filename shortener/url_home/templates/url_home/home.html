@@ -1,0 +1,22 @@
+<body>
+    <div class = "Header">
+        <h1>URL Shortener</h1>
+    </div>
+    <div class = "Nav">
+        <ul>
+            <li>Menu1</li>
+            <li>Menu2</li>
+            <li>Menu3</li>
+            <li>Menu4</li>
+        </ul>
+    </div>
+    <div class = "Content">
+        <form method="post" action="{% url 'url_home:url_home_shorten' %}">
+            <input type="text" name= "url" value="{{current_name}}">
+            <button type="submit">Shorten</button>
+        </form>
+    </div>
+    <div class = "Footer">
+        <a href="{{origin_url}}">{{shorten_url}}</a>
+    </div>
+</body>

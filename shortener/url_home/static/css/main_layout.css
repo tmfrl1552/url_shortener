@@ -1,0 +1,27 @@
+ *{
+            text-align: center;
+
+        }
+        .Header{
+            border : 2px solid red;
+            line-height: 55px;
+            height : 55px;
+        }
+        .Nav{
+            border : 2px solid blue;
+            height : 110px;
+        }
+        .Content{
+            border : 2px solid green;
+            height : 300px;
+            line-height: 300px;
+        }
+        .Footer {
+            border : 2px solid black;
+            height : 55px;
+            line-height : 55px;
+        }
+        ul {
+            list-style: none;
+            padding-left : 0px;
+        }
